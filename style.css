@@ -1,0 +1,423 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+h1 {
+  font-weight: 500;
+}
+.clr {
+  clear: both;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  margin-bottom: 20px;
+}
+.logo {
+  cursor: pointer;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+button {
+  padding: 5px;
+  border: none;
+  background: white;
+}
+.btn {
+  color: white;
+  background-color: rgb(204, 160, 102);
+}
+.container {
+  margin: 20px 50px 0 50px;
+  overflow: hidden;
+  height: 100vh;
+}
+.container #right img,
+.showcase #left img {
+  width: 100%;
+  height: 80vh;
+
+  margin: 0 auto;
+}
+.container #left {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  width: 30%;
+}
+.container #right {
+  float: right;
+  width: 50%;
+}
+.container h1 {
+  line-height: 50px;
+}
+.container p,
+#shop #right p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#but {
+  padding: 10px;
+}
+.showcase {
+  margin: 20px 50px 0 50px;
+  overflow: hidden;
+}
+.showcase #left {
+  float: left;
+  width: 50%;
+}
+.showcase #right {
+  margin-right: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right;
+  width: 35%;
+}
+.showcase #right p {
+  margin-left: 10px;
+}
+#one {
+  margin: 20px 50px 0 50px;
+}
+.center {
+  text-align: center;
+  margin: 40px 0;
+}
+#boxes {
+  display: flex;
+  justify-content: space-around;
+}
+#boxes .box {
+  background: rgb(204, 160, 102);
+  margin: 15px;
+  width: 20%;
+  padding: 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.team {
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.team p {
+  margin: 10px 0;
+}
+.team #left {
+  float: left;
+  width: 40%;
+   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.team #right {
+  float: right;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+#display #img {
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+}
+#display img {
+  width: 500px;
+  height: 500px;
+}
+#shop {
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+#shop #right {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#shop button {
+  width: 40%;
+}
+#shop img {
+  width: 200px;
+  height: 200px;
+}
+#shop #img2 {
+  margin: 20px auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 1em;
+}
+.customers {
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+#box1 img,
+#box2 img {
+  height: 50px;
+  width: 50px;
+}
+.clients {
+  display: flex;
+  justify-content: space-evenly;
+}
+#box1,
+#box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.cards {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 200px;
+}
+.card h4 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+#email {
+  margin-top: 10px;
+  padding: 5px;
+}
+.card a {
+  font-weight: 400;
+}
+footer {
+  background-color: rgb(204, 160, 102);
+}
+.social img {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+.social {
+  width: 70%;
+  margin: 0 auto;
+  margin-left: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav span{
+  display: none;
+}
+.side-nav {
+  margin: 20px 20px 0 0;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.side-nav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+.side-nav a:hover, header a:hover {
+  font-weight: 400;
+}
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+footer {
+  padding: 5px;
+}
+@media screen and (max-width: 700px) {
+  .container #right img,
+  .showcase #left img {
+    width: 100%;
+    height: 100%;
+
+    margin: 20px auto;
+  }
+  
+  .container #left {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    width: 100%;
+  }
+  .container #right {
+    float: none;
+    width: 100%;
+  }
+  .showcase #left {
+    float: none;
+    width: 100%;
+  }
+  .showcase #right {
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: none;
+    width: 100%;
+  }
+  #boxes {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #boxes .box {
+    background: rgb(204, 160, 102);
+    margin: 15px;
+    width: 78%;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .team #left {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .team #right {
+    margin-top: 20px;
+    float: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+  #display #img {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+  }
+  #shop {
+    margin: 20px auto 20px auto;
+    overflow: hidden;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+  #shop #right {
+    
+    align-items: center;
+    text-align: center;
+  }
+  .container p,
+  #shop #right p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .customers {
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  .clients {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  #box1,
+  #box2 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+  .cards {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    width: 200px;
+  }
+   nav span {
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul,.logo, aside{
+    display:none;
+  }
+  header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+  
+}
+

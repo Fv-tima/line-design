@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="home">
+      <header>
+        <h4 class="logo">Line Designs</h4>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">home</a></li>
+            <li><a href="#service">services</a></li>
+            <li><a href="#display">display</a></li>
+            <li><a href="#shop">shop</a></li>
+          </ul>
+          <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+            <svg width="25" height="25">
+              <path d="M0,5 30,5" stroke="black" stroke-width="2" />
+              <path d="M0,14 30,14" stroke="black" stroke-width="2" />
+              <path d="M0,23 30,23" stroke="black" stroke-width="2" />
+            </svg>
+          </a>
+        </span>
+        </nav>
+         <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#home">home</a>
+        <a href="#service">services</a>
+        <a href="#display">display</a>
+        <a href="#shop">shop</a>
+      </div>
+        <!-- <aside>
+          <a href="#"><button class="btn">Sign In</button></a>
+          <a href="#" class="ctn"><button>Sign up</button></a>
+        </aside> -->
+      </header>
+      <div class="container">
+        <div id="left">
+          <h1>Design with Style.</h1>
+          <h1>Design with Smile.</h1>
+          <h1>Design with Us</h1>
+          <p>
+            Are you looking to build a new home or renovate a space? Leave all
+            that to us. Our sole responsibility is your happiness
+          </p>
+          <a href="#"><button class="btn" id="but">Get Started</button></a>
+        </div>
+        <div id="right">
+          <img class="img1" src="/li image/new img 1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="clr"></div>
+    <div id="service">
+      <div class="showcase">
+        <div id="left"><img src="/li image/new img 2.jpg" alt="" /></div>
+        <div id="right">
+          <h1>Aesthetics Meets Functionality</h1>
+          <br />
+          <p>
+            With our team of designers and planners, we strive to give you the
+            best experience. Not only willwe give a design that is pleasing to
+            look at, but we will make sure it serves important purposes.
+          </p>
+          <br />
+          <h1>Collaborative Efforts and Ideas</h1>
+          <br />
+          <p>
+            Your input is importanttous and we will make sure that you are an
+            integral part of putting together the right ambiencefor your dream
+            home.
+          </p>
+        </div>
+        <div class="clr"></div>
+        <main id="one">
+          <h1 class="center">Our Core Values</h1>
+          <section id="boxes">
+            <div class="box">
+              <h1>Collaboration</h1>
+              <p>Let's build your home together</p>
+            </div>
+            <div class="box">
+              <h1>Planning</h1>
+              <p>our team is always prepared</p>
+            </div>
+            <div class="box">
+              <h1>Implementation</h1>
+              <p>Your building is our work</p>
+            </div>
+            <div class="box">
+              <h1>Organic</h1>
+              <p>Building materials are safe</p>
+            </div>
+          </section>
+        </main>
+      </div>
+      <div class="team">
+        <div id="left">
+          <h1>Meet the team</h1>
+          <p>
+            Our team is made up of engineers, designers, planners and other
+            people equipped to make your interior design a success
+          </p>
+          <a href="#"><button class="btn" id="but">Read More</button></a>
+        </div>
+        <div id="right">
+          <img
+            src="/li image/team1.jpg"
+            alt=""
+            width="150px"
+            height="150px"
+            srcset=""
+          />
+
+          <img
+            src="/li image/team3.jpg"
+            alt=""
+            width="150px"
+            height="150px"
+            srcset=""
+          />
+          <img
+            src="/li image/team2.jpg"
+            alt=""
+            width="150px"
+            height="150px"
+            srcset=""
+          />
+          <img
+            src="/li image/team4.jpg"
+            alt=""
+            width="150px"
+            height="150px"
+            srcset=""
+          />
+          <img
+            src="/li image/team5.jpg"
+            alt=""
+            width="150px"
+            height="150px"
+            srcset=""
+          />
+          <img
+            src="/li image/team6.jpg"
+            alt=""
+            width="150px"
+            height="150px"
+            srcset=""
+          />
+        </div>
+      </div>
+      <div class="clr"></div>
+      <div id="display">
+        <h1 class="center">Gallery</h1>
+        <div id="img">
+          <img src="/li image/img3.jpg" alt="" srcset="" />
+          <img src="/li image/img4.jpg" alt="" srcset="" />
+          <img src="/li image/img5.jpg" alt="" srcset="" />
+          <img src="/li image/img6.jpg" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="clr"></div>
+      <div id="shop">
+         <div id="right">
+          <h1>Check Out our Products</h1>
+          <p>
+            We also sell the best quality home decor items and materials to help
+            make your home even more beutiful and welcoming. Our items are
+            cruelty-free, organic and last longing. There's a 30% discount for
+            first-timers <br />
+            From lamps to window blinds to the best household items on the
+            market.
+          </p>
+          <button class="btn" id="but">Buy Now</button>
+        </div>
+        <div id="left">
+          <div id="img2">
+            <img src="/li image/pro1.jpg" alt="" srcset="" />
+            <img src="/li image/pro2.jpg" alt="" srcset="" />
+            <img src="/li image/peo3.jpg" alt="" srcset="" />
+            <img src="/li image/pro4.jpg" alt="" srcset="" />
+          </div>
+        </div>
+       
+        <div class="clr"></div>
+        </div>
+        <div class="customers">
+          <h1 class="center">What Our Clients Have to Say</h1>
+          <div class="clients">
+            <div class="hero">
+            <div id="box1">
+              <img src="/li image/team1.jpg" alt="" srcset="">
+              <p>"I couldn,t believe my eyes when i saw how lilac designs renovated my bachelor's pad"</p>
+                </div>
+            <h4 class="center" style="margin-top: -7px;">Josh, USA</h4>
+          </div>
+          <div class="hero">
+            <div id="box2">
+              <img src="/li image/team6.jpg" alt="" srcset="">
+              <p>"I was skeptical at first, but they completely blew my mind!"</p>
+            </div>
+            <h4 class="center" style="margin-top: -7px;">Amanda,South Africa</h4>
+          </div>
+        </div>
+      </div>
+    <footer>
+      <div class="cards">
+      <div class="card">
+        <h4>Site</h4>
+      <ul>
+        <li><a href="">Services</a></li>
+        <li><a href="">Our Projects</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Employees</a></li>
+      </ul></div>
+      <div class="card">
+        <h4>Career</h4>
+      <ul>
+        <li><a href="">Interior designers</a></li>
+        <li><a href="">floor planners</a></li>
+        <li><a href="">digital designers</a></li>
+        <li><a href="">Personal Shoppers</a></li>
+      </ul>
+      </div>
+      <div class="card">
+        <h4>Help</h4>
+      <ul>
+        <li><a href="">FAQs</a></li>
+        <li><a href="">Private Policy</a></li>
+        <li><a href="">Terms of Service</a></li>
+        <li><a href="">Help centre</a></li>
+      </ul>
+      </div>
+      <div class="card">
+        <h4>Contact </h4>
+        <p>(707) 526-4711 <br> @878 Tachevah Dr <br> Santa Rosa, California(CA), <br>95405</p>
+      </div>
+      <div class="card" width = "250px">
+        <h4>Subscribe to our newsletter</h4>
+        <p>Be the first to know about our special packages and prices</p>
+        <input type="email" name="" id="email" placeholder="Email">
+      </div>
+      </div>
+      <div class="social">
+        <img src="/li image/instagram.png" alt="" srcset="">
+         <img src="/li image/twitter.png" alt="" srcset="">
+          <img src="/li image/face.png" alt="" srcset="">
+      </div>
+      <p class="center">&copy 2022 Line Designs All Rights Deserved</p>
+    </footer>
+     <script>
+      function openSlideMenu() {
+        document.getElementById("side-menu").style.width = "90px";
+        document.getElementsByClassName("container").style.marginRight = "200px";
+      }
+      function closeSlideMenu() {
+        document.getElementById("side-menu").style.width = "0";
+        document.getElementByClassName("container").style.marginRight = "0";
+      }
+    </script>
+  </body>
+</html>
